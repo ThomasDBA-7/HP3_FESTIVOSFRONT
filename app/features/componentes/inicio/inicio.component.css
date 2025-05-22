@@ -1,0 +1,44 @@
+.botoncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -50;
+  }
+
+  .decoracion {
+    background-color: #0a063a; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+  }
+
+  .decoracion:hover {
+    background-color: #126a80;
+}
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    height: -20%;
+  }
+
+  .image-container img {
+    max-width: 50%;
+    max-height: 110%;
+    margin-bottom: 20px;
+
+  }
+  
